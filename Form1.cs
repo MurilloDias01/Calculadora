@@ -146,10 +146,11 @@ namespace CalculadoraSimples
         }
 
         private void button11_Click(object sender, EventArgs e)
-        {
-            textBoxDisplay.Text = textBoxDisplay.Text.Remove(textBoxDisplay.Text.Length - 1);
-        }
-
+       
+            {
+                textBoxDisplay.Text = textBoxDisplay.Text.Remove(textBoxDisplay.Text.Length - 1);
+            }
+        
         private void buttonEnter_Click(object sender, EventArgs e)
         {
             if (ultimaOperacao != operações.Nenhuma)
